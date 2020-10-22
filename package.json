@@ -1,22 +1,22 @@
 {
-  "name": "with-typescript",
+  "name": "ts-front",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "type-check": "tsc"
   },
   "dependencies": {
-    "next": "latest",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "next": "9.5.5",
+    "react": "17.0.0",
+    "react-dom": "17.0.0"
   },
   "devDependencies": {
-    "@types/node": "^12.12.21",
-    "@types/react": "^16.9.16",
-    "@types/react-dom": "^16.9.4",
-    "typescript": "4.0"
-  },
-  "license": "MIT"
+    "@types/node": "^14.14.2",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "typescript": "^4.0.3"
+  }
 }
